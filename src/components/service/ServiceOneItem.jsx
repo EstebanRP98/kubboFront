@@ -26,12 +26,12 @@ export const ServiceOneItem = ({ icon, title, description }) => {
         </div>
         <div className="services__content">
           <h4 className="title">
-            <Link href="/animal/a-123">{title}</Link>
+            <Link href="/animal">{title}</Link>
           </h4>
           <p>
             {description}
           </p>
-          <Link href="/animal/a-123" className="btn border-btn">
+          <Link href="/animal" className="btn border-btn">
             Mirar Detalles
             <img src={rightArrow02} alt="" className="injectable" />
           </Link>

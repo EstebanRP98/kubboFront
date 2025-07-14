@@ -250,7 +250,7 @@ export const AnimalDetailsTop = () => {
                 <h4 className="widget-title">Ubicación</h4>
                 <div className="location-map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48409.69813174607!2d-74.05163325136718!3d40.68264649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1684309529719!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7969.6860239852185!2d-78.965769!3d-2.861648!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd195787d4bf6f%3A0xe46f27cdbc132e47!2sAmeriCat%20Veterinaria!5e0!3m2!1ses-419!2sec!4v1752461212495!5m2!1ses-419!2sec"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"

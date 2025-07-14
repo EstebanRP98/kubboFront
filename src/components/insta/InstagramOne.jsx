@@ -49,8 +49,8 @@ export const InstagramOne = () => {
         <div className="row">
           <div className="col-12">
             <div className="instagram__follow-btn">
-              <Link href="https://www.instagram.com/" target="_blank">
-                Follow Us On Instagram
+              <Link href="https://www.instagram.com/mykubbo" target="_blank">
+                Siguenos en Instagram
               </Link>
             </div>
           </div>
@@ -60,7 +60,7 @@ export const InstagramOne = () => {
           {instagramImages.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="instagram__item">
-                <Link href="https://www.instagram.com/" target="_blank">
+                <Link href="https://www.instagram.com/mykubbo" target="_blank">
                   <img src={image.img} alt={image.alt} />
                 </Link>
               </div>

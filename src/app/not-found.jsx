@@ -15,13 +15,13 @@ export default function NotFoundPage() {
                 <img src={errorImg} alt="404 Error" />
               </div>
               <div className="error__content">
-                <h2 className="title">OOPS! Nothing Was Found</h2>
+                <h2 className="title">¡Ups! Algo salió mal...</h2>
                 <p>
-                  Oops! it could be you or us, there is no page here. It might
-                  have been <br /> moved or deleted.Back To Home
+                  Parece que esta página decidió tomarse un descanso.
+                  <br /> Ya estamos trabajando en ello.
                 </p>
                 <Link href="/" className="btn">
-                  Back To Home Page{" "}
+                  Regresar{" "}
                   <img
                     src={rightArrow}
                     alt="Right Arrow"

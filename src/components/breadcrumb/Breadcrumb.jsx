@@ -15,7 +15,7 @@ export const Breadcrumb = ({ title, subtitle }) => {
               <h3 className="title">{title}</h3>
               <nav className="breadcrumb">
                 <span property="itemListElement" typeof="ListItem">
-                  <Link href="/">Home</Link>
+                  <Link href="/">My Kubbo</Link>
                 </span>
                 <span className="breadcrumb-separator">
                   <i className="flaticon-right-arrow-angle"></i>

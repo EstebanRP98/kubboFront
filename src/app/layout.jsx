@@ -6,7 +6,7 @@ import "../assets/css/default.css";
 import "../assets/css/animate.min.css";
 import "../assets/css/responsive.css";
 import "../assets/css/main.css";
-
+import ApolloWrapper from '@/lib/apollo-provider'
 import { ProviderComponent } from "@/components/provider/Provider";
 import { Baloo_Bhaina_2, Plus_Jakarta_Sans } from "next/font/google";
 
@@ -41,9 +41,11 @@ export default function RootLayout({ children }) {
       <head>
         <style dangerouslySetInnerHTML={{ __html: fontVariables }} />
       </head>
-      <body>
-        <ProviderComponent>{children}</ProviderComponent>
-      </body>
+      <ApolloWrapper>
+        <body>
+          <ProviderComponent>{children}</ProviderComponent>
+        </body>
+      </ApolloWrapper>
     </html>
   );
 }

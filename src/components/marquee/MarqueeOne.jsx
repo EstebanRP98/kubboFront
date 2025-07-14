@@ -6,19 +6,19 @@ const marqueeIcon = "/images/marquee_icon.svg";
 export const MarqueeOne = () => {
   const box = (
     <div className="marquee__box">
-      <Link href="/contact">
+      <Link href="/animal">
         Busca en nuestro directorio
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
-      <Link href="/contact">
+      <Link href="/animal">
         Busca en nuestro directorio
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
-      <Link href="/contact">
+      <Link href="/animal">
         Busca en nuestro directorio
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>
-      <Link href="/contact">
+      <Link href="/animal">
         Busca en nuestro directorio
         <img src={marqueeIcon} alt="Marquee Icon" />
       </Link>

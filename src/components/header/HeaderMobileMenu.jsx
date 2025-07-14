@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { SiThreads } from "react-icons/si";
 import Link from "next/link";
 
 const LOGO = "/logo/logo.png";
@@ -20,43 +21,30 @@ export const HeaderMobileMenu = () => {
             </Link>
           </div>
 
-          <div className="tgmobile__search">
-            <form action="#">
-              <input type="text" placeholder="Search here..." />
-              <button>
-                <i className="fas fa-search"></i>
-              </button>
-            </form>
-          </div>
-
-          <div className="tgmobile__menu-outer">
-            {/* <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--> */}
-          </div>
-
           <div className="social-links">
             <ul className="list-wrap">
               <li>
-                <a href="https://www.facebook.com/" target="_blank">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://x.com/mykubbo?s=11" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.whatsapp.com/" target="_blank">
+                <a href="https://www.threads.com/@mykubbo" target="_blank">
+                  <SiThreads className="text-xl" />
+                </a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=593985739898&text=Quiero%20saber%20mas%20de%20MyKubbo" target="_blank">
                   <i className="fab fa-whatsapp"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.instagram.com/mykubbo?igsh=MWJ6cnN5bHpsaXhpag%3D%3D&utm_source=qr" target="_blank">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/" target="_blank">
+                <a href="https://www.youtube.com/@myKubbo" target="_blank">
                   <i className="fab fa-youtube"></i>
                 </a>
               </li>

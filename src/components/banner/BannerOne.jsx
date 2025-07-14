@@ -37,7 +37,7 @@ export const BannerOne = () => {
                 esta es tu nueva plataforma favorita.
               </p>
               <Link
-                href="/about"
+                href="/animal"
                 className="btn"
                 data-aos="fade-up"
                 data-aos-delay="600"

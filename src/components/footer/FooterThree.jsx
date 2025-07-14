@@ -10,29 +10,6 @@ export const FooterThree = ({ hideNewsLetter }) => {
   return (
     <footer>
       <div className="footer__area">
-        {hideNewsLetter ? null : (
-          <div className="footer__newsletter-three">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-5">
-                  <div className="footer__newsletter-content">
-                    <h2 className="title">Sign Up For Newsletter!</h2>
-                  </div>
-                </div>
-                <div className="col-lg-7">
-                  <form action="#" className="footer__newsletter-form-two">
-                    <input type="email" placeholder="Type Your E-mail" />
-                    <button type="submit">
-                      Subscribe
-                      <img src={rightArrow} alt="" className="injectable" />
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-
         <div className="footer__top footer__top-three fix">
           <div className="container">
             <div className="row">
@@ -45,16 +22,15 @@ export const FooterThree = ({ hideNewsLetter }) => {
                   </div>
                   <div className="footer__content footer__content-two">
                     <p>
-                      Duis aute irure dolor in repreerit in voluptate velitesse
-                      We understand that your furry friend tred member
+                      El lugar para encontrar todo lo que necesita tu mascota
                     </p>
                   </div>
                   <div className="footer__social">
-                    <h6 className="title">Follow Us On:</h6>
+                    <h6 className="title">Siguenos en:</h6>
                     <ul className="list-wrap">
                       <li>
                         <a
-                          href="https://www.facebook.com/"
+                          href="https://www.facebook.com/share/1FMRbq8MiL/?mibextid=wwXIfr"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -63,7 +39,7 @@ export const FooterThree = ({ hideNewsLetter }) => {
                       </li>
                       <li>
                         <a
-                          href="https://twitter.com"
+                          href="https://x.com/mykubbo?s=11"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -72,7 +48,7 @@ export const FooterThree = ({ hideNewsLetter }) => {
                       </li>
                       <li>
                         <a
-                          href="https://www.whatsapp.com/"
+                          href="https://api.whatsapp.com/send?phone=593985739898&text=Quiero%20saber%20mas%20de%20MyKubbo"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -81,7 +57,7 @@ export const FooterThree = ({ hideNewsLetter }) => {
                       </li>
                       <li>
                         <a
-                          href="https://www.instagram.com/"
+                          href="https://www.instagram.com/mykubbo?igsh=MWJ6cnN5bHpsaXhpag%3D%3D&utm_source=qr"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -90,7 +66,7 @@ export const FooterThree = ({ hideNewsLetter }) => {
                       </li>
                       <li>
                         <a
-                          href="https://www.youtube.com/"
+                          href="https://www.youtube.com/@myKubbo"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -103,66 +79,18 @@ export const FooterThree = ({ hideNewsLetter }) => {
               </div>
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div className="footer__widget">
-                  <h4 className="footer__widget-title">Quick Links</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/animal">Animal Rescue</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Humane Education</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Caregivers</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">New & Blog</Link>
-                      </li>
-                      <li>
-                        <Link href="/gallery">Gallery</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Support</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/about">About us</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
-                      </li>
-                      <li>
-                        <Link href="/reservation">Book Appointment</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Locations</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Contact</h4>
+                  <h4 className="footer__widget-title">Contactanos</h4>
                   <div className="footer__contact">
                     <ul className="list-wrap">
                       <li>
-                        555 A, East Manster Street, Ready Halley Neon, Uk 4512
+                        Ecuador, Azuay, Cuenca
                       </li>
                       <li>
-                        <a href="tel:0123456789">+00 123 45678 44</a>
+                        <a href="tel:+593 985739898">+593 985739898</a>
                       </li>
                       <li>
-                        <a href="mailto:Supportinfo@gmail.com">
-                          Supportinfo@gmail.com
+                        <a href="mailto:mykubboec@gmail.com">
+                          mykubboec@gmail.com
                         </a>
                       </li>
                     </ul>
@@ -191,25 +119,7 @@ export const FooterThree = ({ hideNewsLetter }) => {
             <div className="row align-items-center">
               <div className="col-lg-5">
                 <div className="copyright-text copyright-text-three">
-                  <p>Copyright © 2024. All Rights Reserved.</p>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="footer__bottom-menu footer__bottom-menu-two">
-                  <ul className="list-wrap">
-                    <li>
-                      <Link href="/contact">Support</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Terms & Conditions</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Privacy Policy</Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">Career</Link>
-                    </li>
-                  </ul>
+                  <p>Copyright © 2025. All Rights Reserved.</p>
                 </div>
               </div>
             </div>

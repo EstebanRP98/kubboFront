@@ -40,24 +40,7 @@ export const HeaderThree = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-xl-5 col-md-8">
-                      <div className="tgmenu__action tgmenu__action-two d-none d-md-block">
-                        <ul className="list-wrap">
-                          <li className="header-search">
-                            <a
-                              href="#"
-                              className="search-open-btn"
-                              onClick={(e) => {
-                                e.preventDefault();
-                                toggleSearch();
-                              }}
-                            >
-                              <i className="flaticon-loupe"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    
                   </div>
                   <div className="mobile-nav-toggler">
                     <i className="flaticon-layout"></i>
@@ -72,7 +55,7 @@ export const HeaderThree = () => {
         </div>
 
         {/*  header-search  */}
-        <HeaderSearch active={showSearch} toggleSearch={toggleSearch} />
+        
       </header>
     </>
   );

@@ -36,18 +36,7 @@ export const HeaderTwo = () => {
 
                     <div className="tgmenu__action d-none d-md-block">
                       <ul className="list-wrap">
-                        <li className="header-search">
-                          <a
-                            href="#"
-                            className="search-open-btn"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              toggleSearch();
-                            }}
-                          >
-                            <i className="flaticon-loupe"></i>
-                          </a>
-                        </li>
+                        
                         <li className="header-cart">
                           <a href="#">
                             <i className="flaticon-shopping-bag"></i>

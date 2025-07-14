@@ -1,7 +1,7 @@
 import React from "react";
 import { TeamOneItem } from "./TeamOneItem";
 
-const teamImg01 = "/team/team_img01.jpg";
+const teamImg01 = "https://firebasestorage.googleapis.com/v0/b/mykubbo.firebasestorage.app/o/aliados%2Fmiamascota.jpg?alt=media&token=1456eaac-756a-4ae6-a91e-30fa2ac5ae91";
 const teamImg02 = "/team/team_img02.jpg";
 const teamImg03 = "/team/team_img03.jpg";
 const teamImg04 = "/team/team_img04.jpg";
@@ -14,7 +14,7 @@ const teamImg08 = "/team/team_img08.jpg";
 const teamMembers = [
   {
     src: teamImg01,
-    name: "Daria Andaloro",
+    name: "Daria Andaloro1",
     designation: "Veterinary Technician",
   },
   {

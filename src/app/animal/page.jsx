@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Animal() {
   return (
-    <Layout breadcrumbTitle="All Pets">
+    <Layout breadcrumbTitle="Todo">
       <section className="animal__area-three">
         <div className="container">
           <div className="row">
@@ -13,7 +13,7 @@ export default function Animal() {
             <AnimalList />
 
             {/* sidebar */}
-            <AnimalSidebar />
+
           </div>
         </div>
       </section>

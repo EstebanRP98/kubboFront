@@ -84,81 +84,6 @@ export const FooterTwo = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Quick Links</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/animal">Animal Rescue</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Humane Education</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Caregivers</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">New & Blog</Link>
-                      </li>
-                      <li>
-                        <Link href="/gallery">Gallery</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Support</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/about">About us</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
-                      </li>
-                      <li>
-                        <Link href="/reservation">Book Appointment</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Locations</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <div className="footer__widget">
-                  <h4 className="footer__widget-title">Opening Hours</h4>
-                  <div className="footer__link">
-                    <ul className="list-wrap">
-                      <li>
-                        Monday <span>8.00 - 21.00</span>
-                      </li>
-                      <li>
-                        Tuesday <span>8.00 - 21.00</span>
-                      </li>
-                      <li>
-                        Thursday <span>8.00 - 21.00</span>
-                      </li>
-                      <li>
-                        Friday <span>8.00 - 21.00</span>
-                      </li>
-                      <li>
-                        Saturday <span>8.00 - 21.00</span>
-                      </li>
-                      <li>
-                        Sunday <span>8.00 - 21.00</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div className="footer__shape-wrap">
@@ -181,35 +106,35 @@ export const FooterTwo = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="copyright-text copyright-text-two">
-                  <p>Copyright © 2024. All Rights Reserved.</p>
+                  <p>Copyright © 2025. All Rights Reserved.</p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="footer__social-two">
-                  <h6 className="title">Follow Us On:</h6>
+                  <h6 className="title">Siguenos en:</h6>
                   <ul className="list-wrap">
                     <li>
-                      <a href="https://www.facebook.com/" target="_blank">
+                      <a href="https://www.facebook.com/share/1FMRbq8MiL/?mibextid=wwXIfr" target="_blank">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com" target="_blank">
+                      <a href="https://x.com/mykubbo?s=11" target="_blank">
                         <i className="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.whatsapp.com/" target="_blank">
+                      <a href="https://api.whatsapp.com/send?phone=593985739898&text=Quiero%20saber%20mas%20de%20MyKubbo" target="_blank">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://www.instagram.com/mykubbo?igsh=MWJ6cnN5bHpsaXhpag%3D%3D&utm_source=qr" target="_blank">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/" target="_blank">
+                      <a href="https://www.youtube.com/@myKubbo" target="_blank">
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
