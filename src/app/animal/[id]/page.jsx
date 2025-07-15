@@ -3,13 +3,16 @@ import { AnimalDetailsTop } from "@/components/animal/AnimalDetailsTop";
 import { Layout } from "@/layouts/Layout";
 import React from "react";
 
-export default function AnimalDetails() {
+// Corrected: Destructure 'params' from the argument object
+export default function AnimalDetails({ params }) {
+  const { id } = params; // Now 'id' will be correctly extracted
+  console.log('ID from page params:', id);
   return (
     <Layout breadcrumbTitle="Pet Details">
       <section className="animal__details-area">
         <div className="container">
           {/* top */}
-          <AnimalDetailsTop />
+          <AnimalDetailsTop businessId={id} />
 
           {/* slider */}
           <AnimalDetailsRelated />

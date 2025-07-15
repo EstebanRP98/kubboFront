@@ -26,7 +26,6 @@ const GET_BUSINESSES = gql`
 `
 
 export const AnimalList = () => {
-
   const itemsPerPage = 10
   const [page, setPage] = useState(1)
   const offset = (page - 1) * itemsPerPage
@@ -60,10 +59,10 @@ export const AnimalList = () => {
                 <div className="pet-info">
                   <ul className="list-wrap">
                     <li>
-                      Services: <span>{animal.services?.join(", ")}</span>
+                      Servicios: <span>{animal.services?.join(", ")}</span>
                     </li>
                     <li>
-                      Address: <span>{animal.location?.address}</span>
+                      Direccion: <span>{animal.location?.address}</span>
                     </li>
                   </ul>
                 </div>
