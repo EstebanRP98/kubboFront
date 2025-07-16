@@ -42,7 +42,7 @@ export const AnimalList = () => {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   return (
-    <div className="col-xl-9 col-lg-8 order-0 order-lg-2">
+    <div className="col-12 order-0 order-lg-2">
       <div className="row">
         {businesses.map((animal) => (
           <div key={animal.id} className="col-xl-4 col-md-6">

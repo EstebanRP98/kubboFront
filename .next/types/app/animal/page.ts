@@ -1,4 +1,4 @@
-// File: C:\Users\david\OneDrive\Documents\mykubbo\kubboFront\src\app\animal\page.jsx
+// File: /Users/estebanrosero/Documents/MyKubbo/kubboFront/src/app/animal/page.jsx
 import * as entry from '../../../../src/app/animal/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
