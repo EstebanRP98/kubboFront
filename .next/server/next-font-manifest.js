@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/estebanrosero/Documents/MyKubbo/kubboFront/src/app/layout\":[\"static/media/c009ba00d89d05ad-s.p.woff2\",\"static/media/636a5ac981f94f8b-s.p.woff2\",\"static/media/c49dcee81b580683-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
