@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const wLogo = "/logo/w_logo.png";
+const wLogo = "/logo/w_logo2.png";
 const newsletterShape = "/images/footer_newsletter_shape.svg";
 const footerShape01 = "/images/footer_shape01.png";
 const footerShape02 = "/images/footer_shape02.png";

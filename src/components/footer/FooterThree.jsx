@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const rightArrow = "/icon/right_arrow04.svg";
-const wLogo = "/logo/w_logo.png";
+const wLogo = "/logo/w_logo2.png";
 const footerShape1 = "/images/footer_shape01.png";
 const footerShape2 = "/images/footer_shape02.png";
 
