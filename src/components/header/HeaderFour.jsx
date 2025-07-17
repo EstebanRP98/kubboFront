@@ -18,7 +18,7 @@ export const HeaderFour = () => {
       <div id="header-fixed-height"></div>
 
       {/* top */}
-      <HeaderTop />
+      
 
       <div id="sticky-header" className="tg-header__area tg-header__area-four">
         <div className="container">

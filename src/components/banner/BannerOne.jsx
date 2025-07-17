@@ -4,8 +4,6 @@ import React from "react";
 import Link from "next/link";
 
 const bannerBg = "/banner/banner_bg.jpg";
-const titleImg01 = "/banner/banner_title_img01.png";
-const titleImg02 = "/banner/banner_title_img02.png";
 const rightArrow = "/icon/right_arrow.svg";
 const bannerImg01 = "/banner/banner_img01.png";
 const petIcon01 = "/icon/pet_icon01.svg";
@@ -26,7 +24,6 @@ export const BannerOne = () => {
             <div className="banner__content">
               <h2 className="title" data-aos="fade-up" data-aos-delay="200">
                 Hola 
-                <img src={titleImg01} alt="" />
                 <br/>
                 Pet
                 Lover
