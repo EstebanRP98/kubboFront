@@ -8,7 +8,7 @@ import { useMobileMenu } from "../../lib/hooks/useHeader";
 import { HeaderMobileMenu } from "./HeaderMobileMenu";
 import Select from "react-select";
 
-const logoImg = "/logo/logo.png";
+const logoImg = "/logo/logo1.png";
 
 export const HeaderFour = () => {
   useMobileMenu();
@@ -18,7 +18,7 @@ export const HeaderFour = () => {
       <div id="header-fixed-height"></div>
 
       {/* top */}
-      
+      <HeaderTop />
 
       <div id="sticky-header" className="tg-header__area tg-header__area-four">
         <div className="container">

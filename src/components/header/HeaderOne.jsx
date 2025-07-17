@@ -13,7 +13,7 @@ import {
   useSearch,
 } from "../../lib/hooks/useHeader";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logo1.png";
 
 export const HeaderOne = () => {
   const { showSearch, toggleSearch } = useSearch();

@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logo1.png";
 
 export const HeaderOffcanvas = ({ active, toggleCanvas }) => {
   return (

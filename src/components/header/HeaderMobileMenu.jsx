@@ -4,7 +4,7 @@ import React from "react";
 import { SiThreads } from "react-icons/si";
 import Link from "next/link";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logo1.png";
 
 export const HeaderMobileMenu = () => {
   return (

@@ -7,7 +7,7 @@ import { HeaderNav } from "./HeaderNav";
 import { HeaderMobileMenu } from "./HeaderMobileMenu";
 import { HeaderSearch } from "./HeaderSearch";
 
-const LOGO = "/logo/logo.png";
+const LOGO = "/logo/logo1.png";
 
 export const HeaderTwo = () => {
   const { showSearch, toggleSearch } = useSearch();
